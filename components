@@ -1,6 +1,33 @@
+#scaffolding components#
+
 import React from "react";
 import Game from "./components/Game";
 
 const App = () => <Game />;
 
 export default App;
+
+
+#squre companents and distructing props#
+const Square = (props) => (
+	<button onClick={props.onClick}>{props.value}</button>
+);
+
+
+#board component and scaffolding functions#
+<div>
+	<Square value="1" onClick={() => onClick("dummy value")} />
+	<Square value="2" onClick={() => onClick("dummy value")} />
+	<Square value="3" onClick={() => onClick("dummy value")} />
+	<Square value="4" onClick={() => onClick("dummy value")} />
+	<Square value="5" onClick={() => onClick("dummy value")} />
+	<Square value="6" onClick={() => onClick("dummy value")} />
+	<Square value="7" onClick={() => onClick("dummy value")} />
+	<Square value="8" onClick={() => onClick("dummy value")} />
+	<Square value="9" onClick={() => onClick("dummy value")} />
+</div>
+
+
+
+
+
